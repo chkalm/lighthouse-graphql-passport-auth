@@ -106,7 +106,7 @@ class TestCase extends Orchestra
      * @param mixed[] $data
      * @param mixed[] $headers
      *
-     * @return \Illuminate\Foundation\Testing\TestResponse
+     * @return \Illuminate\Testing\TestResponse
      */
     protected function postGraphQL(array $data, array $headers = [])
     {
