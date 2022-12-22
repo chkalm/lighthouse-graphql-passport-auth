@@ -1,0 +1,7 @@
+version: "3.8"
+services:
+    package:
+        image: composer:2.2.6
+        working_dir: /var/www/package
+        volumes:
+            - ./:/var/www/package

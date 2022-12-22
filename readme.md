@@ -32,6 +32,32 @@ Then
     vendor/bin/phpunit
 ```
 
+## Docker
+
+Pull docker image
+
+```bash
+docker-compose pull
+```
+
+Install packages
+
+```bash
+docker-compose run package composer install
+```
+
+Update packages
+
+```bash
+docker-compose run package composer update
+```
+
+Run test
+
+```bash
+docker-compose run package composer test
+```
+
 ## Contributing
 
 Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
