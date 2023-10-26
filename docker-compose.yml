@@ -1,7 +1,6 @@
 version: "3.8"
 services:
     package:
-        # image: biings/biings:8.1.13
         build:
             context: .docker/images/server
         working_dir: /var/www/package

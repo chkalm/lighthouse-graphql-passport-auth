@@ -1,4 +1,4 @@
-Lighthouse GraphQL Passport Auth (Laravel ^7.0 / Lighthouse ^4.0)
+Lighthouse GraphQL Passport Auth (Laravel ^11.0 / Lighthouse ^6.0)
 ===============================================
 
 [![Total Downloads](https://poser.pugx.org/joselfonseca/lighthouse-graphql-passport-auth/downloads.svg)](https://packagist.org/packages/joselfonseca/lighthouse-graphql-passport-auth)
